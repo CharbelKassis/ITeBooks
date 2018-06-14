@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Page temporaire"
+        android:id="@+id/textView5"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="50dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Library"
+        android:id="@+id/library_temp"
+        android:layout_gravity="center_horizontal"
+        android:onClick="tmpShow" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        android:id="@+id/search_temp"
+        android:layout_gravity="center_horizontal"
+        android:onClick="tmpShow" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        android:id="@+id/result_temp"
+        android:layout_gravity="center_horizontal"
+        android:onClick="tmpShow" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:id="@+id/description_temp"
+        android:layout_gravity="center_horizontal"
+        android:onClick="tmpShow" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reader"
+        android:id="@+id/reader_temp"
+        android:layout_gravity="center_horizontal"
+        android:onClick="tmpShow" />
+
+</LinearLayout>

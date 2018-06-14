@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">IT eBooks</string>
+    <string name="library">Library</string>
+    <string name="autre">Autres options</string>
+    <string name="title_activity_result">ResultActivity</string>
+    <string name="keyword">Keyword</string>
+    <string name="google">Google</string>
+    <string name="send">share text to... </string>
+
+</resources>
